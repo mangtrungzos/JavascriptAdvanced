@@ -1,3 +1,18 @@
+// Scope - Scope types:
+//         Global
+//         Code Block - Khối mã: let, const
+//         Local scope - Hàm: var, function
+
+//         Khi gọi mỗi hàm luôn có 1 phạm vi mới được tạo
+//         Các hàm có thể truy cập các biến được khai báo trong phạm vi của nó và bên ngoài của nó
+//         Cách thức một biến được truy cập
+//         Khi nào một biến bị xóa khỏi bộ nhớ ?
+//            - Biến toàn cầu?
+//            - Biến trong code block & trong hàm?
+//            - Biến trong hàm được tham chiếu bởi 1 hàm?
+
+//         Biến Global xóa khỏi bộ nhứ khi thoát khỏi chương trình
+
 /**  Global scope  */
 var message = "Global scope"; // variable declared in global scope (var, let, const)
 // therefore we can access it from anywhere
