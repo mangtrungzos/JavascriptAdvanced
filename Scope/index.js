@@ -83,13 +83,13 @@ const agez = 18;
 }
 
 // case 1: Khai báo sau khi được sử dụng
-// const agess = 18;
-// {
-//   {
-//     console.log(agess); // Error: can not access 'age' before initialization
-//     const agess = 19;
-//   }
-// }
+const agess = 18;
+{
+  {
+    console.log(agess); // Error: can not access 'age' before initialization
+    const agess = 19;
+  }
+}
 
 /**  Delete from memory */
 
