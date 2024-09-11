@@ -1,3 +1,28 @@
+// Value types & Reference types
+
+// 1. Value types (Primitive data types)
+//    String
+//    Number
+//    Boolean
+//    Null
+//    Undefined
+//    Symbol
+//    BigInt
+
+// 2. Reference types (Non-primitive data types)
+//    Object
+//    Array
+//    Function
+
+// Data types with function
+// Value types
+// Reference types: Trả về địa chỉ vùng nhớ
+
+// Note: Khi tạo ra 1 biến sẽ có 1 vùng nhớ được tạo ra và lưu giá trị ở vùng nhớ đó
+//       - Chỉ lưu địa chỉ trỏ tới ô nhớ của nó, chứ không lưu giá trị của nó
+
+/**------------- Value types ------------ */
+// ex. 1
 let a = 1; // Tạo ra biến a, cấp 1 ô nhớ và lưu giá trị của a vào ô nhớ
 
 let b = a; // Tạo ra biến b, cấp 1 ô nhớ khác, sao chép giá trị của a (1) vào ô nhớ
@@ -101,7 +126,7 @@ const newCar = createCar(car);
 console.log(newCar);
 console.log(car);
 
-// ex.
+// ex. Compare data
 const s = {
   name: "BMW",
 };
@@ -111,6 +136,7 @@ const v = {
 };
 
 console.log(s === v); // Ouput: false
+
 // ex.
 const s1 = {
   name: "BMW",
