@@ -1,3 +1,15 @@
+// This = Từ khóa this trong JS đề cập đến đối tượng mà nó thuộc về
+
+// Đặc tính:
+//          1. Trong 1 phương thức, "this" tham chiếu tới đối tượng truy cập phương thức (đối tượng trước dấu .)
+//          2. Đứng ngoài phương thức, "this" tham chiếu tới đối tượng global
+
+// Note:
+//      1. This trong hàm tạo là đại diện cho đối tượng sẽ được tạo
+//      2. This trong 1 hàm là 'undefined' khi ở "strict mode"
+//      3. Các phương thức bind(), call(), apply() có thể tham chiếu this tới đối tượng khác
+//      4. Arrow function không có 'this', nó sẽ lấy 'this' ở phạm vi bên ngoài của nó (ở hàm gần nhất chứa nó)
+
 // Một hàm được dùng làm thuộc tính của 1 object thì gọi là Phương thức
 
 // ex. 1
