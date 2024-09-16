@@ -11,6 +11,7 @@
 //      4. Arrow function không có 'this', nó sẽ lấy 'this' ở phạm vi bên ngoài của nó (ở hàm gần nhất chứa nó)
 
 // Một hàm được dùng làm thuộc tính của 1 object thì gọi là Phương thức
+// Khi gọi 1 hàm không thông qua 1 object thì lúc đó từ khóa "this" sẽ trỏ ra đối tượng global (ở trình duyệt nó sẽ chọc ra phạm vi window)
 
 // ex. 1
 const iphone = {
