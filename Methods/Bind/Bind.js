@@ -14,6 +14,7 @@
 //      1. Phương thức bind() cho phép ràng buộc this cho 1 phương thức (func)
 //      2. Phương thức bind() sẽ trả về một hàm mới với context được bind
 //      3. Hàm được trả về từ bind() vẫn có thể nhận các đối số của hàm gốc
+//      4. Là một phương thức nằm trong constructor func
 
 // Window scope:
 // ex. 1
