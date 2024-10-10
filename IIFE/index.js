@@ -126,3 +126,13 @@ a(1)();
 
 // ++x làm tăng x từ 2 lên 3.
 // In ra 3.
+
+let x = a(1);
+x();
+x();
+x();
+
+// Biến x lưu trữ hàm con trả về từ a(1)
+// x = 1
+// x++ → x tăng lên 2
+// Hàm con được trả về và lưu vào biến x.
